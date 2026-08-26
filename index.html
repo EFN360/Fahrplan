@@ -3,89 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live-Abfahrtsmonitor – aktuelle Abfahrten mit Linie, Ziel, Gleis und Status.">
     <title>Abfahrt / Departures</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Abfahrt / Departures</h1>
-    <table>
-        <tr>
-            <th>Zeit</th>
-            <th>Linie</th>
-            <th>Ziel</th>
-            <th>Gleis/Steig</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>10:15</td>
-            <td>RE 1</td>
-            <td>Hamburg</td>
-            <td>3</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>10:22</td>
-            <td>S 2</td>
-            <td>Duisburg</td>
-            <td>5</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>10:31</td>
-            <td>ICE 830</td>
-            <td>Frankfurt (Main)</td>
-            <td>2</td>
-            <td class="delay-warning">+5 Min</td>
-        </tr>
-        <tr>
-            <td>10:38</td>
-            <td>RB 52</td>
-            <td>Dortmund</td>
-            <td>7</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>10:44</td>
-            <td>IC 2377</td>
-            <td>Köln</td>
-            <td>4</td>
-            <td class="delay-warning">+10 Min</td>
-        </tr>
-        <tr>
-            <td>10:50</td>
-            <td>S 6</td>
-            <td>Essen</td>
-            <td>1</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>10:57</td>
-            <td>RE 11</td>
-            <td>Münster</td>
-            <td>6</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>11:05</td>
-            <td>ICE 812</td>
-            <td>Berlin</td>
-            <td>2</td>
-            <td class="delay-late">+15 Min</td>
-        </tr>
-        <tr>
-            <td>11:12</td>
-            <td>RB 44</td>
-            <td>Bochum</td>
-            <td>8</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-        <tr>
-            <td>11:18</td>
-            <td>S 3</td>
-            <td>Oberhausen</td>
-            <td>1</td>
-            <td class="on-time">pünktlich</td>
-        </tr>
-    </table>
+    <script>console.log("Fahrplan v1.2.0");</script>
+    <header>
+        <h1>Abfahrt / Departures</h1>
+    </header>
+    <main>
+        <table>
+            <caption class="sr-only">Abfahrtstafel</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Zeit</th>
+                    <th scope="col">Linie</th>
+                    <th scope="col">Ziel</th>
+                    <th scope="col">Gleis/Steig</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:15</td>
+                    <td>RE 1</td>
+                    <td>Hamburg</td>
+                    <td>3</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>10:22</td>
+                    <td>S 2</td>
+                    <td>Duisburg</td>
+                    <td>5</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>10:31</td>
+                    <td>ICE 830</td>
+                    <td>Frankfurt (Main)</td>
+                    <td>2</td>
+                    <td class="delay-warning">+5 Min</td>
+                </tr>
+                <tr>
+                    <td>10:38</td>
+                    <td>RB 52</td>
+                    <td>Dortmund</td>
+                    <td>7</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>10:44</td>
+                    <td>IC 2377</td>
+                    <td>Köln</td>
+                    <td>4</td>
+                    <td class="delay-warning">+10 Min</td>
+                </tr>
+                <tr>
+                    <td>10:50</td>
+                    <td>S 6</td>
+                    <td>Essen</td>
+                    <td>1</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>10:57</td>
+                    <td>RE 11</td>
+                    <td>Münster</td>
+                    <td>6</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>11:05</td>
+                    <td>ICE 812</td>
+                    <td>Berlin</td>
+                    <td>2</td>
+                    <td class="delay-late">+15 Min</td>
+                </tr>
+                <tr>
+                    <td>11:12</td>
+                    <td>RB 44</td>
+                    <td>Bochum</td>
+                    <td>8</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+                <tr>
+                    <td>11:18</td>
+                    <td>S 3</td>
+                    <td>Oberhausen</td>
+                    <td>1</td>
+                    <td class="on-time">pünktlich</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "modern-web-design": {
+      "source": "kuse-ai/kuse-skills",
+      "sourceType": "github",
+      "skillPath": "modern-web-design/SKILL.md",
+      "computedHash": "c1d24d7e9894d4041fb1fe7b617f7fff1dfde5af0711db663f8e9492403b321c"
+    },
+    "ui-ux-design": {
+      "source": "arvindand/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ui-ux-design/SKILL.md",
+      "computedHash": "e09ac090a7e0842b69f004066f506314c5e7dc15bf8cd0f7841c6dea629623b0"
+    }
+  }
+}
